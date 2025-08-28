@@ -9,8 +9,6 @@ const PORT = process.env.PORT || 5000;
 // connect to DB
 connectDB();
 
-// middlewares
-import cors from "cors";
 
 app.use(cors({
   origin: "*",  // later you can restrict to your Vercel frontend URL
